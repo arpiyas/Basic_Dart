@@ -1,0 +1,15 @@
+import 'dart:io';
+main(){
+  stdout.write("Enter your age:");
+  int age = int.parse(stdin.readLineSync()!);
+  if (age >= 50){
+    print("Sorry! You can't apply for this post");
+    return;
+  }
+  if(age < 18)
+    {print("Sorry you can't apply for this post");}
+  else{
+    print("You can apply for this post");
+  }
+
+}
