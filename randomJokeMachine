@@ -1,0 +1,13 @@
+import 'dart:math';
+// import 'dart:io';
+main(){
+  List<String> jokes = [
+    "Why did the computer get cold? because it forget to close windows!",
+    "why do programmer prefer dark mode? because light attracts bugs !",
+    "why do java developer wear glasses? because they dont C# !",
+    "why coders dont like nature? because it has too many bugs!",
+    "whats the coders favourite tea? its utility!"];
+  int randomIndex = Random().nextInt(jokes.length); //jokes.length it will store,how many elememt I want
+  print("Joke of the day: ");
+  print("${jokes [randomIndex]} 😂"); //"[..]" for targeting array
+}
